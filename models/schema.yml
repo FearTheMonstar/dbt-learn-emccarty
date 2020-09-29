@@ -56,3 +56,10 @@ sources:
     database: raw
     tables:
       - name: payment
+
+  - name: ticket_tailor
+    database: raw
+    tables:
+      - name: orders
+      - name: events
+      - name: issued_tickets
